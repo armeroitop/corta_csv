@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dividir .CSV</title>
+</head>
+
+<body>
+    <form id="formulari">
+        <fieldset>
+            <legend>Aqui el archivo a cortar</legend>
+            <input type="file" id="archivoInput" accept=".csv">
+        </fieldset>
+        <fieldset>
+            <legend>En cuantas partes a dividir</legend>
+            <label for="cantidad">Numero de partes</label>
+            <input type="number" id="cantidad" name="cantidad" min="2" max="10" value="2">
+            <button type="submit" id="cortar">cortar</button>
+        </fieldset>
+        
+    </form>
+
+    <script type="text/javascript" src="src/code.js"></script>
+
+</body>
+
+</html>
